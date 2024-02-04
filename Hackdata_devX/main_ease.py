@@ -6,7 +6,7 @@ from openai import OpenAI
 from main_user import user
 
 
-client = OpenAI(api_key="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")
+client = OpenAI()
 
 
 st.set_page_config(page_title="LegalEase", page_icon=":student:")
