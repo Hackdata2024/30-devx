@@ -41,7 +41,7 @@ def Scraped_data():
     # Connect to MySQL
     
     def scrape():
-        client = OpenAI(api_key="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")
+        client = OpenAI()
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
