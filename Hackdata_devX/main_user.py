@@ -41,7 +41,7 @@ def get_current_location():
         return None, None
 
 
-client = OpenAI(api_key="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")
+client = OpenAI()
 def openAPI(user_input):
 
     response = client.chat.completions.create(
